@@ -10,7 +10,7 @@ Incluye ejercicios, modelos y entregales organizados semanalmente, abarcando des
 | Semana 1 | Conceptos del modelo conceptual de datos |
 | Semana 2 | Modelo Entidad Relacion |
 | Semana 3 | Jerarquía entre entidades |
-| Semana 4 | - |
+| Semana 4 | Normalizacion |
 | Semana 5 | - |
 | Semana 6 | - |
 | Semana 7 | - |
