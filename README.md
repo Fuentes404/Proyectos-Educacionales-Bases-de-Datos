@@ -11,7 +11,7 @@ Incluye ejercicios, modelos y entregales organizados semanalmente, abarcando des
 | Semana 2 | Modelo Entidad Relacion |
 | Semana 3 | Jerarquía entre entidades |
 | Semana 4 | Normalizacion |
-| Semana 5 | - |
+| Semana 5 | MER y MR |
 | Semana 6 | - |
 | Semana 7 | - |
 | Semana 8 | - |
