@@ -54,7 +54,8 @@ Vista conceptual con entidades, atributos identificadores (`#`), obligatorios (`
 relaciones representadas con simbología *crow's foot* (uno, muchos, opcional/obligatorio) propia de la notación
 Barker.
 
-![MER-E Normalizado en notación Barker](./images/mer-e-notacion-barker.png)
+<img width="1904" height="731" alt="mer-e-notacion-barker" src="https://github.com/user-attachments/assets/c03147ed-a4cf-4ef4-b5b4-1b637f7483fe" />
+
 
 *Entidades principales:* `PRODUCTO`, `PRODUCTO_PROVEEDOR`, `PROVEEDOR` (con subtipos `PROVEEDOR_PERSONA` y
 `PROVEEDOR_EMPRESA`), `CATEGORIA`, `MODELO`, `MARCA`, `SUCURSAL`, `COMUNA`, `REGION`, `CLIENTE`, `BOLETA_VENTA` y
@@ -66,7 +67,7 @@ Vista intermedia que conserva la notación Barker (marcas `P` para clave primari
 y `F` para clave foránea) pero ya incorpora los **tipos de dato** definidos para cada atributo tras el análisis de
 dominio, como paso previo a la generación del modelo físico.
 
-![Modelo lógico en notación Barker con tipos de dato](./images/modelo-logico-barker-tipos-datos.png)
+<img width="1902" height="733" alt="modelo-logico-barker-tipos-datos" src="https://github.com/user-attachments/assets/e956d9b5-7c1b-44b3-872a-3aa8fe04d6f5" />
 
 ## 🔗 Modelo Relacional (MR) Normalizado — Notación Bachman / Ingeniería de la Información
 
@@ -74,7 +75,7 @@ Modelo físico resultante de aplicar las reglas de transformación de MER-E a MR
 tabla, se definen las claves primarias (`PK`) y foráneas (`FK`) de forma explícita y nombrada, y se representan
 las relaciones entre tablas mediante la notación de Bachman / Ingeniería de la Información.
 
-![Modelo Relacional Normalizado en notación Bachman](./images/modelo-relacional-mr-bachman.png)
+<img width="1903" height="721" alt="modelo-relacional-mr-bachman" src="https://github.com/user-attachments/assets/dce5f9f6-877a-4b0e-8563-62dee640aa2e" />
 
 *Tablas generadas:* `BOLETA_VENTA`, `CATEGORIA`, `CLIENTE`, `COMUNA`, `DETALLE_BOLETA`, `MARCA`, `MODELO`,
 `PRODUCTO`, `PRODUCTO_PROVEEDOR`, `PROVEEDOR`, `PROVEEDOR_EMPRESA`, `PROVEEDOR_PERSONA`, `REGION`, `SUCURSAL`
