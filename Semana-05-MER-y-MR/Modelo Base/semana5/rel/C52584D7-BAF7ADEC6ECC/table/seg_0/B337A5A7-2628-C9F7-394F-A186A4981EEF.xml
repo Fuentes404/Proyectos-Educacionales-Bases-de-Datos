@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B337A5A7-2628-C9F7-394F-A186A4981EEF" name="CATEGORIA">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-09-14 08:04:14 UTC</createdTime>
+<generatorID>40FC5968-E120-6B73-A95C-6D65C6439336</generatorID>
+<ownerDesignName>semana5</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_categoria" id="1E4E68BB-F22F-43D9-A693-2F0FD4C07DF7">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-09-14 08:04:14 UTC</createdTime>
+<generatorID>43EC8B67-B2A3-C7EB-3D73-CD00E3548304</generatorID>
+<ownerDesignName>semana5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_categoria" id="524E95FB-B652-E43E-62A4-620871B2C801">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-09-14 08:04:14 UTC</createdTime>
+<generatorID>419FB1BD-5F9F-0C76-1836-CEA53DCC3D8C</generatorID>
+<ownerDesignName>semana5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="indicador_vence" id="5A023797-E81B-95F8-EE60-FC61DEF8FE25">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-09-14 08:04:14 UTC</createdTime>
+<generatorID>74E3C77D-05DA-609E-A419-5F05ECB6D607</generatorID>
+<ownerDesignName>semana5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="932F11F6-D96F-8196-AC1B-E2FF7548AC67" name="CATEGORIA_PK">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-09-14 08:04:14 UTC</createdTime>
+<generatorID>751F8235-FA49-366A-71FC-52D1596AFDC3</generatorID>
+<ownerDesignName>semana5</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E4E68BB-F22F-43D9-A693-2F0FD4C07DF7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

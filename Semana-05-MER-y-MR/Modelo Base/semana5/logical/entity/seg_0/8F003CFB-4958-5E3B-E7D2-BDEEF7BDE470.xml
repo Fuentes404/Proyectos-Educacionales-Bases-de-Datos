@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8F003CFB-4958-5E3B-E7D2-BDEEF7BDE470" name="REGION">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-09-14 05:23:39 UTC</createdTime>
+<ownerDesignName>semana5</ownerDesignName>
+<engineerTo>
+<item key="C52584D7-F644-CE05-BA92-BAF7ADEC6ECC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_region" id="34CC0D32-B6E7-FFB8-76E5-E79BB426F652">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-09-14 06:05:26 UTC</createdTime>
+<ownerDesignName>semana5</ownerDesignName>
+<engineerTo>
+<item key="C52584D7-F644-CE05-BA92-BAF7ADEC6ECC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_region" id="48E4BF30-60E0-7F29-6890-F8FB663ED0E3">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-09-14 06:05:46 UTC</createdTime>
+<ownerDesignName>semana5</ownerDesignName>
+<engineerTo>
+<item key="C52584D7-F644-CE05-BA92-BAF7ADEC6ECC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4FCC52FF-F005-A6F1-58CF-8BCD60C4E2E3" name="REGION PK">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-09-14 06:05:34 UTC</createdTime>
+<ownerDesignName>semana5</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C52584D7-F644-CE05-BA92-BAF7ADEC6ECC" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>34CC0D32-B6E7-FFB8-76E5-E79BB426F652</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

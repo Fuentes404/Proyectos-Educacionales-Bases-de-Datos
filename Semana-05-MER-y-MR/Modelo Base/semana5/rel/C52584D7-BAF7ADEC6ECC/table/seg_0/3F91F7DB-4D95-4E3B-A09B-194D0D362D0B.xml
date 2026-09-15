@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3F91F7DB-4D95-4E3B-A09B-194D0D362D0B" name="PRODUCTO_PROVEEDOR">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-09-14 08:04:14 UTC</createdTime>
+<generatorID>EBE89FAE-67CF-8523-0BCC-2543E2F5F84E</generatorID>
+<ownerDesignName>semana5</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="fecha_ultima_compra" id="74A43BD3-E31D-270B-1DFE-075339B258DC">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-09-14 08:04:14 UTC</createdTime>
+<generatorID>C5631429-5D48-5F3C-9729-56F88EA88214</generatorID>
+<ownerDesignName>semana5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRODUCTO_id_producto" id="01CD9C9D-2BDB-571C-41BE-F0E10C1FEDCA">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-09-14 08:04:14 UTC</createdTime>
+<generatorID>135A5EE4-023F-6F12-4643-14E50F9F23AE</generatorID>
+<ownerDesignName>semana5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="24D54F0B-E490-8D6E-68EA-35DC1D54421B" referredColumn="C0796280-6279-B06E-B6DE-204E1EF22BEA"/>
+</associations>
+</Column>
+<Column name="PROVEEDOR_id_proveedor" id="A011C6F8-F71A-A4C8-503B-338FC5A740DC">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-09-14 08:04:14 UTC</createdTime>
+<generatorID>738F57B4-CBD7-9414-3B97-DB98D0CA7746</generatorID>
+<ownerDesignName>semana5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C2564241-4CB2-F392-2875-7B5080DEA100" referredColumn="F0026BB8-DA9F-4EF1-E09B-DAEE32689A83"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="96835284-6996-908E-633B-375E4784347D" name="PRODUCTO_PROVEEDOR_PK">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-09-14 08:04:14 UTC</createdTime>
+<generatorID>66F9E484-CCFD-D805-AF2D-1C51E225F14A</generatorID>
+<ownerDesignName>semana5</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="01CD9C9D-2BDB-571C-41BE-F0E10C1FEDCA"/>
+<colUsage columnID="A011C6F8-F71A-A4C8-503B-338FC5A740DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EBD6252F-C309-22D8-0D05-509061922150" name="PRODUCTO_PROVEEDOR_PRODUCTO_FK">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-09-14 08:04:14 UTC</createdTime>
+<generatorID>0F712F11-113B-CC7D-C84F-5ABC220E31F4</generatorID>
+<ownerDesignName>semana5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="01CD9C9D-2BDB-571C-41BE-F0E10C1FEDCA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="063CBCD9-032A-0E12-8455-A107D1B33BE5" name="PROD_PROVEEDOR_FK">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-09-14 08:04:14 UTC</createdTime>
+<generatorID>D61B03F3-FD49-8128-9827-2FB2B68FE5F1</generatorID>
+<ownerDesignName>semana5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A011C6F8-F71A-A4C8-503B-338FC5A740DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

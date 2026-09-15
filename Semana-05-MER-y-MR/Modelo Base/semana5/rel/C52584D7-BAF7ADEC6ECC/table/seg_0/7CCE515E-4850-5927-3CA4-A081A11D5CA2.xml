@@ -1,0 +1,186 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7CCE515E-4850-5927-3CA4-A081A11D5CA2" name="PRODUCTO">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-09-14 08:04:14 UTC</createdTime>
+<generatorID>651F795C-4F16-11BD-7E7D-300802C8822E</generatorID>
+<ownerDesignName>semana5</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_producto" id="C0796280-6279-B06E-B6DE-204E1EF22BEA">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-09-14 08:04:14 UTC</createdTime>
+<generatorID>BC69BCE4-BAD6-1028-C163-FC48122B7C86</generatorID>
+<ownerDesignName>semana5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="19D9941E-1024-0C27-4678-A89A0CEF5D5E">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-09-14 08:04:14 UTC</createdTime>
+<generatorID>99078C94-0061-7A04-5C8E-EDEF7BFB876B</generatorID>
+<ownerDesignName>semana5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="D60CCAB2-43A1-2ADE-D413-90A20CA00C2D">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-09-14 08:04:14 UTC</createdTime>
+<generatorID>0E1FAC93-4A0E-FEE3-CB83-D5C5BED80826</generatorID>
+<ownerDesignName>semana5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_vencimiento" id="66D36F94-704E-115A-2453-E7152863A868">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-09-14 08:04:14 UTC</createdTime>
+<generatorID>2C5FF393-1998-2A38-FD94-27CB6FA15113</generatorID>
+<ownerDesignName>semana5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="monto_venta" id="1B251C12-67A2-9F14-7106-940B91079E45">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-09-14 08:04:14 UTC</createdTime>
+<generatorID>657003F3-7B84-3FA0-1187-D938E6C11F84</generatorID>
+<ownerDesignName>semana5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MODELO_id_modelo" id="0697CBF1-767B-F9D2-894E-E5A01AF63BEC">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-09-14 08:04:14 UTC</createdTime>
+<generatorID>4224AE08-1073-44E8-DD39-7994BC81B7A3</generatorID>
+<ownerDesignName>semana5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8005A787-C5C1-9A55-0D4B-A44771E3D9D4" referredColumn="E91DC48A-03CB-9BAE-54CD-C2D66D82DE65"/>
+</associations>
+</Column>
+<Column name="MODELO_MARCA_id_marca" id="0F748CA3-B49F-A7E7-5FB3-D546F7B656A2">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-09-14 08:04:14 UTC</createdTime>
+<generatorID>7B2892B3-1473-1DF2-6F43-268E55A12638</generatorID>
+<ownerDesignName>semana5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8005A787-C5C1-9A55-0D4B-A44771E3D9D4" referredColumn="34C9611D-6539-52EF-3228-90232E202EC4"/>
+</associations>
+</Column>
+<Column name="CATEGORIA_id_categoria" id="87F991E0-7744-6BA8-047A-290FAA2EFDB5">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-09-14 08:04:14 UTC</createdTime>
+<generatorID>308DF395-0B98-7DA0-D0CD-D91ECBFDFAB7</generatorID>
+<ownerDesignName>semana5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C2B9CD5E-3AF1-5A82-0084-D0F527FD7718" referredColumn="1E4E68BB-F22F-43D9-A693-2F0FD4C07DF7"/>
+</associations>
+</Column>
+<Column name="SUCURSAL_id_sucursal" id="69B36F34-3519-2A61-6B22-5DF997607BED">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-09-14 08:04:14 UTC</createdTime>
+<generatorID>4A34FF7D-BA35-1A0A-6723-8F9269865F3A</generatorID>
+<ownerDesignName>semana5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="99786ACB-6F78-CB4A-6A48-B6E8D3073E50" referredColumn="4E14585C-D5A2-4602-EAD7-F92AF9C91777"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D961316B-963D-BE26-F6C3-CC8E0147E1EC" name="PRODUCTO_PK">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-09-14 08:04:14 UTC</createdTime>
+<generatorID>54BC83E9-E777-F83A-D9E3-A45FA7FD5A68</generatorID>
+<ownerDesignName>semana5</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0796280-6279-B06E-B6DE-204E1EF22BEA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B9C614E2-EF46-D82D-382C-EBF1A09CEBA8" name="PRODUCTO_MODELO_FK">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-09-14 08:04:14 UTC</createdTime>
+<generatorID>93A567C4-A6F8-B69C-69BD-36DA156F05CA</generatorID>
+<ownerDesignName>semana5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0697CBF1-767B-F9D2-894E-E5A01AF63BEC"/>
+<colUsage columnID="0F748CA3-B49F-A7E7-5FB3-D546F7B656A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9D6F1A5C-F343-E4B3-983E-C6A482BE831A" name="PRODUCTO_CATEGORIA_FK">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-09-14 08:04:14 UTC</createdTime>
+<generatorID>0A79D3B2-B815-E830-EC0D-529ACA2DFC68</generatorID>
+<ownerDesignName>semana5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="87F991E0-7744-6BA8-047A-290FAA2EFDB5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="075BB645-7E6F-20A6-319E-74DCBA5F60E6" name="PRODUCTO_SUCURSAL_FK">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-09-14 08:04:14 UTC</createdTime>
+<generatorID>7D3C572F-202F-8A7C-7E6B-71379BDDE7EA</generatorID>
+<ownerDesignName>semana5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="69B36F34-3519-2A61-6B22-5DF997607BED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

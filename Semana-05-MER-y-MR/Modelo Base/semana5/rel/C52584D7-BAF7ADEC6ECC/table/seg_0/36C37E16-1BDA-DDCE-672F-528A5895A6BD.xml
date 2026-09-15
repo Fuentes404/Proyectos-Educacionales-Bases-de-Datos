@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="36C37E16-1BDA-DDCE-672F-528A5895A6BD" name="PROVEEDOR_PERSONA">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-09-14 08:04:14 UTC</createdTime>
+<generatorID>F7AEC10B-B5F7-C082-FB17-6992B75E4B2E</generatorID>
+<ownerDesignName>semana5</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nombres" id="2B800B96-B912-3C80-F1C4-64822C20DF3B">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-09-14 08:04:14 UTC</createdTime>
+<generatorID>120905DC-809B-59C3-B46D-29F3E1E698DE</generatorID>
+<ownerDesignName>semana5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellidos" id="F8DF1374-02F7-8925-C743-7BAA702E3B49">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-09-14 08:04:14 UTC</createdTime>
+<generatorID>46174472-9FE3-0583-2553-95E21A26FCB4</generatorID>
+<ownerDesignName>semana5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROVEEDOR_id_proveedor" id="45272B16-9C52-54E2-7B8D-698541BC2C1C">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-09-14 08:04:14 UTC</createdTime>
+<generatorID>6C75EA97-9F8C-9282-3FA5-39A461E48AC3</generatorID>
+<ownerDesignName>semana5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="466C1E37-3ECC-272C-C44A-00D6757D237B" referredColumn="F0026BB8-DA9F-4EF1-E09B-DAEE32689A83"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="90B1033E-0A77-339E-BA1F-A77CF3A8F2CC" name="PROVEEDOR_PERSONA_PK">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-09-14 08:04:14 UTC</createdTime>
+<generatorID>ECCD568D-9175-7288-F044-CAB13D480C22</generatorID>
+<ownerDesignName>semana5</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="45272B16-9C52-54E2-7B8D-698541BC2C1C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D7CA3F62-D6F4-659B-D203-30781856D710" name="PROVEEDOR_PERSONA_PROVEEDOR_FK">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-09-14 08:04:14 UTC</createdTime>
+<generatorID>9B5A2A17-16B3-F2B2-34AB-5B056484D2D5</generatorID>
+<ownerDesignName>semana5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="45272B16-9C52-54E2-7B8D-698541BC2C1C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

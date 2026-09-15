@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="298A98C9-3402-3603-C8F2-55CF595DAD1E" name="SUCURSAL">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-09-14 05:23:13 UTC</createdTime>
+<ownerDesignName>semana5</ownerDesignName>
+<engineerTo>
+<item key="C52584D7-F644-CE05-BA92-BAF7ADEC6ECC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_sucursal" id="EA26F82A-CC9A-BBB7-4391-34BD9324C245">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-09-14 06:00:08 UTC</createdTime>
+<ownerDesignName>semana5</ownerDesignName>
+<engineerTo>
+<item key="C52584D7-F644-CE05-BA92-BAF7ADEC6ECC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_sucursal" id="197DF312-A99D-74F3-767A-4AA1CE3EBB2A">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-09-14 06:02:28 UTC</createdTime>
+<ownerDesignName>semana5</ownerDesignName>
+<engineerTo>
+<item key="C52584D7-F644-CE05-BA92-BAF7ADEC6ECC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion" id="41C29E2E-9068-66B8-A959-98A554FB50C9">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-09-14 06:02:50 UTC</createdTime>
+<ownerDesignName>semana5</ownerDesignName>
+<engineerTo>
+<item key="C52584D7-F644-CE05-BA92-BAF7ADEC6ECC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_comuna" id="DA6321EF-B972-88A4-76D6-F7C61E6A067D">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-09-14 06:48:34 UTC</createdTime>
+<generatorID>4F5E13CF-A05C-49CA-E86D-4839FE0359D0</generatorID>
+<ownerDesignName>semana5</ownerDesignName>
+<engineerTo>
+<item key="C52584D7-F644-CE05-BA92-BAF7ADEC6ECC" value="true"/>
+</engineerTo>
+<referedAttribute>67C2530E-6463-ED10-01F2-2694C7AE32C2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DC83DDBB-C94C-6AB6-CA30-D9FC31F25D51" name="SUCURSAL PK">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-09-14 06:00:21 UTC</createdTime>
+<ownerDesignName>semana5</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C52584D7-F644-CE05-BA92-BAF7ADEC6ECC" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EA26F82A-CC9A-BBB7-4391-34BD9324C245</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

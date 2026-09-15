@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F7AEC10B-B5F7-C082-FB17-6992B75E4B2E" name="PROVEEDOR_PERSONA">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-09-14 05:22:50 UTC</createdTime>
+<ownerDesignName>semana5</ownerDesignName>
+<engineerTo>
+<item key="C52584D7-F644-CE05-BA92-BAF7ADEC6ECC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<discriminatorValue>P</discriminatorValue>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nombres" id="120905DC-809B-59C3-B46D-29F3E1E698DE">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-09-14 05:53:40 UTC</createdTime>
+<ownerDesignName>semana5</ownerDesignName>
+<engineerTo>
+<item key="C52584D7-F644-CE05-BA92-BAF7ADEC6ECC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apellidos" id="46174472-9FE3-0583-2553-95E21A26FCB4">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-09-14 05:54:17 UTC</createdTime>
+<ownerDesignName>semana5</ownerDesignName>
+<engineerTo>
+<item key="C52584D7-F644-CE05-BA92-BAF7ADEC6ECC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_proveedor" id="6C75EA97-9F8C-9282-3FA5-39A461E48AC3">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-09-14 07:27:04 UTC</createdTime>
+<generatorID>9B5A2A17-16B3-F2B2-34AB-5B056484D2D5</generatorID>
+<ownerDesignName>semana5</ownerDesignName>
+<engineerTo>
+<item key="C52584D7-F644-CE05-BA92-BAF7ADEC6ECC" value="true"/>
+</engineerTo>
+<referedAttribute>8EFE5164-1F68-0481-F4FD-F7190C25E4F9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="ECCD568D-9175-7288-F044-CAB13D480C22" name="PROVEEDOR_PERSONA PK">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-09-14 05:53:31 UTC</createdTime>
+<ownerDesignName>semana5</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C52584D7-F644-CE05-BA92-BAF7ADEC6ECC" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6C75EA97-9F8C-9282-3FA5-39A461E48AC3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

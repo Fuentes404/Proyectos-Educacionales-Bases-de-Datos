@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EBE89FAE-67CF-8523-0BCC-2543E2F5F84E" name="PRODUCTO_PROVEEDOR">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-09-14 05:23:02 UTC</createdTime>
+<ownerDesignName>semana5</ownerDesignName>
+<engineerTo>
+<item key="C52584D7-F644-CE05-BA92-BAF7ADEC6ECC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="fecha_ultima_compra" id="C5631429-5D48-5F3C-9729-56F88EA88214">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-09-14 05:56:16 UTC</createdTime>
+<ownerDesignName>semana5</ownerDesignName>
+<engineerTo>
+<item key="C52584D7-F644-CE05-BA92-BAF7ADEC6ECC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_producto" id="135A5EE4-023F-6F12-4643-14E50F9F23AE">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-09-14 07:02:46 UTC</createdTime>
+<generatorID>0F712F11-113B-CC7D-C84F-5ABC220E31F4</generatorID>
+<ownerDesignName>semana5</ownerDesignName>
+<engineerTo>
+<item key="C52584D7-F644-CE05-BA92-BAF7ADEC6ECC" value="true"/>
+</engineerTo>
+<referedAttribute>BC69BCE4-BAD6-1028-C163-FC48122B7C86</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_proveedor" id="738F57B4-CBD7-9414-3B97-DB98D0CA7746">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-09-14 07:04:12 UTC</createdTime>
+<generatorID>D61B03F3-FD49-8128-9827-2FB2B68FE5F1</generatorID>
+<ownerDesignName>semana5</ownerDesignName>
+<engineerTo>
+<item key="C52584D7-F644-CE05-BA92-BAF7ADEC6ECC" value="true"/>
+</engineerTo>
+<referedAttribute>8EFE5164-1F68-0481-F4FD-F7190C25E4F9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="66F9E484-CCFD-D805-AF2D-1C51E225F14A" name="PRODUCTO_PROVEEDOR PK">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-09-14 05:56:38 UTC</createdTime>
+<ownerDesignName>semana5</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C52584D7-F644-CE05-BA92-BAF7ADEC6ECC" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>135A5EE4-023F-6F12-4643-14E50F9F23AE</attributeRef>
+<attributeRef>738F57B4-CBD7-9414-3B97-DB98D0CA7746</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

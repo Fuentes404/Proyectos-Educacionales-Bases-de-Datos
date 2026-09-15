@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B22818CB-8393-19B9-13B9-E5C9342590BD" name="DETALLE_BOLETA">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-09-14 08:04:14 UTC</createdTime>
+<generatorID>E37340E1-7179-616D-F842-55D4DBFDB36A</generatorID>
+<ownerDesignName>semana5</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cantidad" id="3131BB39-2649-6408-C938-345BD967EAC1">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-09-14 08:04:14 UTC</createdTime>
+<generatorID>7DF14E79-C497-4638-F81B-63C5F619758A</generatorID>
+<ownerDesignName>semana5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precio_unitario" id="1BF3BDD6-5702-C68C-4727-78BC13841C87">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-09-14 08:04:14 UTC</createdTime>
+<generatorID>B5F85FC6-5CE9-6BCD-6569-604788AF390B</generatorID>
+<ownerDesignName>semana5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BOLETA_VENTA_id_boleta" id="03F70606-079D-E18D-8DDF-4EDD6DC106B2">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-09-14 08:04:14 UTC</createdTime>
+<generatorID>FDA771AA-AE44-52CF-0B39-16EF69D7670F</generatorID>
+<ownerDesignName>semana5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="316085DC-9D89-299F-0BFC-281DE16ADBBA" referredColumn="7F8A74D4-EE02-2433-0302-78F3117EF171"/>
+</associations>
+</Column>
+<Column name="PRODUCTO_id_producto" id="79F94A82-D953-4D73-37E3-061D46C15969">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-09-14 08:04:14 UTC</createdTime>
+<generatorID>57C29F26-7E5A-1B66-EA2B-BCB23FD61C38</generatorID>
+<ownerDesignName>semana5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="738C0419-AF8B-6A08-7497-52C9167FFB61" referredColumn="C0796280-6279-B06E-B6DE-204E1EF22BEA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DBDC883C-00D0-EF64-B727-F31D56D54183" name="DETALLE_BOLETA_PK">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-09-14 08:04:14 UTC</createdTime>
+<generatorID>985E9BD3-734E-B4E4-53B3-9018EAA78A9B</generatorID>
+<ownerDesignName>semana5</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="03F70606-079D-E18D-8DDF-4EDD6DC106B2"/>
+<colUsage columnID="79F94A82-D953-4D73-37E3-061D46C15969"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="91C64241-87F6-17B1-CC8B-ECF2E43946DD" name="DETALLE_BOLETA_BOLETA_VENTA_FK">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-09-14 08:04:14 UTC</createdTime>
+<generatorID>2FA706EC-D4AE-0988-9860-12E96DC22ED5</generatorID>
+<ownerDesignName>semana5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="03F70606-079D-E18D-8DDF-4EDD6DC106B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F4B86A03-563E-6F79-E98C-5AFD5D62C786" name="DETALLE_BOLETA_PRODUCTO_FK">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-09-14 08:04:14 UTC</createdTime>
+<generatorID>F4B3881C-386D-2AB3-86A1-B25F0EBB84C3</generatorID>
+<ownerDesignName>semana5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="79F94A82-D953-4D73-37E3-061D46C15969"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

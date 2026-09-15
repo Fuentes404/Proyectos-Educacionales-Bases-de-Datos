@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7CDC6059-112D-352D-FD3D-2A8C9A7ADAFB" name="PROVEEDOR_EMPRESA">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-09-14 08:04:14 UTC</createdTime>
+<generatorID>4B5AFB2B-0F58-6B8C-BE88-EF419FBD5C72</generatorID>
+<ownerDesignName>semana5</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="razon_social" id="599C9E14-5309-B7D5-1354-3E29100AB489">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-09-14 08:04:14 UTC</createdTime>
+<generatorID>BED14F08-ADF9-ADB9-99DD-D5B6DEAB143A</generatorID>
+<ownerDesignName>semana5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sitio_web" id="84A4B69A-A89F-14E4-92C5-C1FC4D362B1B">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-09-14 08:04:14 UTC</createdTime>
+<generatorID>DFE59AFB-CB17-177D-E60D-DECBBB987BDF</generatorID>
+<ownerDesignName>semana5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROVEEDOR_id_proveedor" id="87396C48-1698-0B1B-0AA0-E2EEA3F35677">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-09-14 08:04:14 UTC</createdTime>
+<generatorID>364338D9-AC2F-E875-524E-55B09519778F</generatorID>
+<ownerDesignName>semana5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8FBE5B7C-08B7-3C11-0069-CC4203CC3B60" referredColumn="F0026BB8-DA9F-4EF1-E09B-DAEE32689A83"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="099CEF34-7704-B8B2-0EBE-BD22104F67E1" name="PROVEEDOR_EMPRESA_PK">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-09-14 08:04:14 UTC</createdTime>
+<generatorID>618B9F4A-938F-B2D7-A202-37A7EA6FFE91</generatorID>
+<ownerDesignName>semana5</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="87396C48-1698-0B1B-0AA0-E2EEA3F35677"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6D9D5841-F158-5A2C-C510-D1DFD56C3DC2" name="PROVEEDOR_EMPRESA_PROVEEDOR_FK">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-09-14 08:04:14 UTC</createdTime>
+<generatorID>7BA556C1-A776-3EF5-FE6C-7716550159D0</generatorID>
+<ownerDesignName>semana5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="87396C48-1698-0B1B-0AA0-E2EEA3F35677"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,161 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="651F795C-4F16-11BD-7E7D-300802C8822E" name="PRODUCTO">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-09-14 05:20:56 UTC</createdTime>
+<ownerDesignName>semana5</ownerDesignName>
+<engineerTo>
+<item key="C52584D7-F644-CE05-BA92-BAF7ADEC6ECC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_producto" id="BC69BCE4-BAD6-1028-C163-FC48122B7C86">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-09-14 05:27:54 UTC</createdTime>
+<ownerDesignName>semana5</ownerDesignName>
+<engineerTo>
+<item key="C52584D7-F644-CE05-BA92-BAF7ADEC6ECC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="99078C94-0061-7A04-5C8E-EDEF7BFB876B">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-09-14 05:31:05 UTC</createdTime>
+<ownerDesignName>semana5</ownerDesignName>
+<engineerTo>
+<item key="C52584D7-F644-CE05-BA92-BAF7ADEC6ECC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="0E1FAC93-4A0E-FEE3-CB83-D5C5BED80826">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-09-14 05:31:41 UTC</createdTime>
+<ownerDesignName>semana5</ownerDesignName>
+<engineerTo>
+<item key="C52584D7-F644-CE05-BA92-BAF7ADEC6ECC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_vencimiento" id="2C5FF393-1998-2A38-FD94-27CB6FA15113">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-09-14 05:32:23 UTC</createdTime>
+<ownerDesignName>semana5</ownerDesignName>
+<engineerTo>
+<item key="C52584D7-F644-CE05-BA92-BAF7ADEC6ECC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="monto_venta" id="657003F3-7B84-3FA0-1187-D938E6C11F84">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-09-14 05:32:11 UTC</createdTime>
+<ownerDesignName>semana5</ownerDesignName>
+<engineerTo>
+<item key="C52584D7-F644-CE05-BA92-BAF7ADEC6ECC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_modelo" id="4224AE08-1073-44E8-DD39-7994BC81B7A3">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-09-14 06:55:01 UTC</createdTime>
+<generatorID>93A567C4-A6F8-B69C-69BD-36DA156F05CA</generatorID>
+<ownerDesignName>semana5</ownerDesignName>
+<engineerTo>
+<item key="C52584D7-F644-CE05-BA92-BAF7ADEC6ECC" value="true"/>
+</engineerTo>
+<referedAttribute>935E6705-94E5-292E-9606-B73A6C9F88C0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_marca" id="7B2892B3-1473-1DF2-6F43-268E55A12638">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-09-14 06:55:01 UTC</createdTime>
+<generatorID>93A567C4-A6F8-B69C-69BD-36DA156F05CA</generatorID>
+<ownerDesignName>semana5</ownerDesignName>
+<engineerTo>
+<item key="C52584D7-F644-CE05-BA92-BAF7ADEC6ECC" value="true"/>
+</engineerTo>
+<referedAttribute>0D29DE2D-2E34-F109-3B21-9F359E6A6E49</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_categoria" id="308DF395-0B98-7DA0-D0CD-D91ECBFDFAB7">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-09-14 06:55:58 UTC</createdTime>
+<generatorID>0A79D3B2-B815-E830-EC0D-529ACA2DFC68</generatorID>
+<ownerDesignName>semana5</ownerDesignName>
+<engineerTo>
+<item key="C52584D7-F644-CE05-BA92-BAF7ADEC6ECC" value="true"/>
+</engineerTo>
+<referedAttribute>43EC8B67-B2A3-C7EB-3D73-CD00E3548304</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_sucursal" id="4A34FF7D-BA35-1A0A-6723-8F9269865F3A">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-09-14 06:57:00 UTC</createdTime>
+<generatorID>7D3C572F-202F-8A7C-7E6B-71379BDDE7EA</generatorID>
+<ownerDesignName>semana5</ownerDesignName>
+<engineerTo>
+<item key="C52584D7-F644-CE05-BA92-BAF7ADEC6ECC" value="true"/>
+</engineerTo>
+<referedAttribute>EA26F82A-CC9A-BBB7-4391-34BD9324C245</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="54BC83E9-E777-F83A-D9E3-A45FA7FD5A68" name="PRODUCTO PK">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-09-14 05:30:54 UTC</createdTime>
+<ownerDesignName>semana5</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C52584D7-F644-CE05-BA92-BAF7ADEC6ECC" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BC69BCE4-BAD6-1028-C163-FC48122B7C86</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
